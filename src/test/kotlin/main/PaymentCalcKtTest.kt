@@ -365,4 +365,13 @@ class PaymentCalcKtTest {
 
         assertEquals(expectedResult, actualResult)
     }
+
+    // =======================
+    //FAIL
+    // =======================
+    @Test
+    fun failedTest() {
+        assertEquals(true, false)
+    }
+
 }
